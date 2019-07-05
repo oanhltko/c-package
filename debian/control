@@ -1,0 +1,15 @@
+Source: c-package
+Section: utils
+Priority: optional
+Maintainer: Ubuntu 1804-x64 <subinashouse@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage:https://github.com/oanhltko/c-package 
+Vcs-Git: https://github.com/oanhltko/c-package.git
+Vcs-Browser: https://github.com/oanhltko/c-package
+
+Package: c-package
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A deb package for C Hello world
+  A deb pacakge for C language. Hello world. Demo for publish to PPA repo.
